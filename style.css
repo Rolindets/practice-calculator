@@ -28,11 +28,15 @@ body {
     margin-top: 20px;
     background-color: rgb(227, 228, 238);
     border-radius: 20px;
-    min-width: 380px;
+    max-width: 380px;
 }
 
 #screen {
     font-size: 6em;
+    border: none; /* Remove default input border */
+    background-color: transparent; /* Make background match the div */
+    text-align: right; /* Align text to the right */
+    width: 100%; /* Ensure input takes the full width */
 }
 
 /* ROWS */
